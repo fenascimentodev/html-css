@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código fonte - Pré-Formatação </h2>
+    <p>O comando &lt;code&gt;<code>documento.getElementById('test')</code>&lt;code&gt; é escrito em JavaScript</p> 
+    <p>Serve para códigos escritos por extenso que aparecerão no browser que ficarem com as letras muito juntas, dar uma separadinha e ficar legível. Segue o exemplo acima com o código documento.getElementById('teste") e note a diferença.</p> 
+    <pre>
+        <p>Para mostrar o código no browser como foi escrito no Visual Studio Code(ex. abaixo), utilizar a tag &lt;pre&gt;, caso contrário ficará escrito poe extenso tornando-se um código 'sujo', mal escrito.</p>
+        <p>Selecionando o código (APENAS O CÓDIGO) e pressionando SHIFT+TAB, vc faz o contrário da tecla TAB.</p>
+        <code>
+    num = int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} é ÍMPAR')
+    print('Fim do programa')
+        </code>
+    </pre>
+    <h2>Citações Simples</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um Google muito rápido.</q></p>
+    <p>Para colocar aspas usar a tag &lt;q&gt;. (possui fechamento)Ex. acima</p>
+    <h2>Citações Completas</h2>
+    <p>Segundo Jeff Noble no seu livro "HTML PARA LEIGOS: </p>
+    <blockquote cite="link do livro da citação abaixo">
+        <q>A diferença entre os elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.</q>
+    </blockquote>
+    <p>Para deixar com esse espaço antes usar a tag &lt;blockquote&gt; e dentro da mesma tag podemos adicionar 'cite' e informar o link de onde foi tirada a citação, caso necessário <br>(Ex.: &lt;blockquote cite="link"&gt;) (possui fechamento)</p>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>, estou adorando.</p>
+    <p>a tag &lt;abbr&gt; serve para quando passar o mouse em cima da sigla/abreviação aparecer o nome completo por extenso. (OBS. Como se fosse uma interação com JS.)</p>
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+    <p>Usamos a tag &lt;bdo&gt; com a parte vermelhinha sendo <q>rtl</q> e entre &gt;*digite o texto*&lt;</p>
+</body>
+</html>
