@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formuláriot</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+        <p>
+            <input type="color" name="cor" id="icor" value="#00ff00">
+            <label for="icor">Cor: </label>
+        </p>
+
+        <p>
+            <input type="range" name="nivel" id="inivel" min="1" max="10" value="10">
+            <label for="inivel">Nível de Satisfação</label>
+        </p>
+
+        <p>
+            <input type="file" name="foto" id="ifoto">
+            <label for="ifoto">Escolha aqui seu arquivo</label>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="submit" value="Limpar">
+        </p>
+
+    </form>
+</body>
+</html>
